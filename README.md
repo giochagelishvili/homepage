@@ -6,4 +6,6 @@ The most demanding aspect of the project was the design phase. I had to create e
 
 <h1>Overview</h1>
 
+<a href="https://giochagelishvili.github.io/homepage/">Click here to see the website</a>
+
 <img src="https://i.imgur.com/RGM36c2.png">
