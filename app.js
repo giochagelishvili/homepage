@@ -8,6 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
     close.addEventListener('click', hide);
     dollars.addEventListener('click', joke);
 
+    function goToSkills() {
+        window.location.href = 'skills.html';
+    }
+
     function joke() {
         alert("Just kidding bro... Open nav menu 😉");
     }

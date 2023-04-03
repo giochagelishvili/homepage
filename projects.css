@@ -11,6 +11,10 @@ project images on the webpage */
 }
 
 /* project image styles */
+.image-div {
+    width: 100%;
+}
+
 .project-image {
     width: 80%;
     box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.75);
@@ -19,7 +23,6 @@ project images on the webpage */
 
 /* project name styles */
 .name {
-    font-size: 1.2rem;
     text-transform: uppercase;
     margin-top: 1rem;
 }
@@ -31,17 +34,30 @@ project images on the webpage */
 
 /* "Full portfolio can be found on my GitHub" text styles */
 h1:last-of-type {
+    font-size: 3rem;
     margin: 2rem 1rem;
 }
 
 /* media querry for tablets and desktop devices */
-@media screen and (min-width: 768px) {
-    .project-image {
+@media screen and (min-width: 1024px) {
+    .flex-container {
+        gap: 2rem;
+    }
+
+    .image-div {
         width: 32rem;
+    }
+
+    .project-image {
+        width: 100%;
     }
 
     .project-image:hover {
         transform: scale(1.05);
+    }
+
+    h1:last-of-type {
+        font-size: 1.5rem;
     }
 
     .name:hover, #github:hover {

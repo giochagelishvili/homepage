@@ -8,32 +8,10 @@ main {
 
 /* paragraph styles */
 #bio {
-    max-width: 38rem;
-    margin-top: 2.5rem;
+    max-width: 48rem;
+    margin: 3.5rem 0;
 }
 
-/* skills button styles */
 #skills {
-    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
-    background-size: 200% auto;
-
-    padding: 0.75rem 2rem;
-
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-
-    transition: 0.5s;
-    color: black;
-
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
-    border: none;
-    border-radius: 10px;
-  }
-
-/* skills button animation */
-#skills:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
+    margin-bottom: 3.5rem;
+}
