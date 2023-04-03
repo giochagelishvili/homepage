@@ -1,0 +1,154 @@
+/* GLOBAL STYLES */
+
+body {
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(36, 45, 57) 98.6%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+/* remove underline from anchor tag and set color to white */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+/* google icons css */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*HEADER STYLES*/
+header {
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+/* transform "logo" text to uppercase */
+#my-webpage {
+    text-transform: uppercase;
+}
+
+/* nav-menu styles */
+#nav-menu {
+    /* set height and width to take all the screen */
+    width: 100vw;
+    height: 100vh;
+
+    /* list nav-menu items vertically and center them */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    /* remove bullet points from li elements and transform uppercase */
+    list-style: none;
+    text-transform: uppercase;
+
+    /* hide the nav-menu */
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    right: 0;
+
+    /* ensure smooth transition */
+    transition: 1s;
+    background-color: black;
+}
+
+/* set cursor pointer to nav-menu open and close buttons */
+#hamburger, #close {
+    cursor: pointer;
+}
+
+/* position close button in the upper right corner */
+#close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* MAIN STYLES */
+/* center cat image inside image-container */
+.image-container {
+    width: 100%;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* cat image styles */
+#cat {
+    width: 15rem;
+    margin-bottom: 1rem;
+
+    border: 4px solid white;
+    border-radius: 50%;
+
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+}
+
+#georgia-flag {
+    display: inline;
+    width: 2.5rem;
+}
+
+/* center get 500$ button on the page */
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+/* get 500$ button styles */
+#get-dollars {
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    background-size: 200% auto;
+
+    padding: 0.75rem 2rem;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    transition: 0.5s;
+    color: white;
+
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 10px;
+  }
+
+/* animate get 500$ button */
+#get-dollars:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
